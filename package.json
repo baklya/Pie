@@ -5,6 +5,7 @@
   "author": "baklya",
   "license": "MIT",
   "dependencies": {
+    "@webpack-cli/serve": "1.5.1",
     "classnames": "2.2.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
