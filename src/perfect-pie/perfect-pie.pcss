@@ -1,0 +1,35 @@
+.pieContainer {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+
+	&.invalid {
+		height: 100%;
+	}
+
+	svg {
+		overflow: visible;
+	}
+}
+
+.centerText {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	border-radius: 50%;
+	color: themedColor(color-toolbar-interactive-element-text-normal);
+	overflow: hidden;
+	word-break: break-word;
+}
+
+.chart {
+	height: 100%;
+	width: 100%;
+	overflow: visible;
+}

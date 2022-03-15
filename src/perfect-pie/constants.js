@@ -1,0 +1,11 @@
+export var DIAMETER = 100;
+export var ARC_WIDTH = 30;
+export var START_ANGLE = -Math.PI / 2;
+export var ARC_HOVER_WIDTH = 3;
+export var CENTER_LABELS_ANGLE = Math.PI / 2.5; // 72deg
+export var RADIUS = DIAMETER / 2;
+export var LABEL_PADDING = ARC_WIDTH / 4;
+export var INNER_ARC_RADIUS = RADIUS - ARC_WIDTH / 2;
+export var MIN_COORDINATE_VALUE = 0.01;
+export var MIN_VISIBLE_PERCENTS_VALUE = 2.8;
+export var OVERLAP_DELTA = 2;

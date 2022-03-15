@@ -1,0 +1,39 @@
+{
+  "name": "perfect-pie",
+  "version": "0.0.1",
+  "description": "",
+  "author": "baklya",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "2.2.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tslib": "2.0.3"
+  },
+  "devDependencies": {
+    "@types/classnames": "2.2.11",
+    "@types/jest": "26.0.23",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "autoprefixer": "10.2.6",
+    "css-loader": "5.0.1",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "5.0.0-beta.6",
+    "jest": "27.0.5",
+    "mini-css-extract-plugin": "1.3.3",
+    "postcss": "8.3.5",
+    "postcss-loader": "4.3.0",
+    "postcss-nested": "5.0.5",
+    "redux": "4.0.5",
+    "ts-loader": "8.0.12",
+    "tslint": "6.1.3",
+    "typescript": "4.3.4",
+    "webpack": "5.11.1",
+    "webpack-cli": "4.7.2",
+    "webpack-dev-server": "4.0.0-beta.3"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js",
+    "test": "jest"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "main": "perfect-pie",
+  "typings": "perfect-pie.tsx"
+}
